@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const DATA_FILE = path.join(
   __dirname,
-  process.env.DATA_FILE || "ordersData.json"
+  process.env.DATA_FILE || "data/ordersData.json"
 );
 
 console.log("📁 DATA_FILE path:", DATA_FILE);
