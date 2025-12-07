@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1001,
+    "customer": "John Doe",
+    "total": 299.99,
+    "status": "Completed"
+  },
+  {
+    "id": 1002,
+    "customer": "Jane Smith",
+    "total": 149.5,
+    "status": "Completed"
+  },
+  {
+    "id": 1003,
+    "customer": "Mike Johnson",
+    "total": 89.99,
+    "status": "Completed"
+  },
+  {
+    "id": 1004,
+    "customer": "Sarah Wilson",
+    "total": 245,
+    "status": "Completed"
+  }
+]
