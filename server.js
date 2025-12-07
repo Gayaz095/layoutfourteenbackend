@@ -1,11 +1,16 @@
+require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
 const fs = require("fs/promises");
 const path = require("path");
 
 const app = express();
-const PORT = 3001;
-const DATA_FILE = path.join(__dirname, "ordersData.json");
+const PORT = process.env.PORT || 3001;
+const DATA_FILE = path.join(
+  __dirname,
+  process.env.DATA_FILE || "ordersData.json"
+);
 
 console.log("📁 DATA_FILE path:", DATA_FILE);
 console.log("📂 Current directory:", __dirname);
